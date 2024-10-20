@@ -24,6 +24,14 @@ def print_function(person_name, person_age):
     print(f"Tu t'appelles : {person_name}")
     print(f"Ton âge est : {person_age} ans")
     print("L'an prochain tu auras " + str(person_age + 1) + " ans.")
+    if person_age == 17:
+        print("Tu es presque majeur !")
+    elif person_age == 18:
+        print("Tout juste majeur : Félicitations !")
+    elif person_age > 18:
+        print("Tu es majeur")
+    else:
+        print("Tu es mineur !")
 
 
 print_function(name, age)
