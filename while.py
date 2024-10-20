@@ -19,4 +19,11 @@ def ask_age(person_name):
 
 name = ask_name()
 age = ask_age(name)
-print(f"Ton nom est {name} et tu as {age} ans. L'an prochain tu auras " + str(age + 1) + " ans")
+
+def print_function(person_name, person_age):
+    print(f"Tu t'appelles : {person_name}")
+    print(f"Ton âge est : {person_age} ans")
+    print("L'an prochain tu auras " + str(person_age + 1) + " ans.")
+
+
+print_function(name, age)
