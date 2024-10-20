@@ -28,8 +28,12 @@ def print_function(person_name, person_age):
         print("Tu es presque majeur !")
     elif person_age == 18:
         print("Tout juste majeur : Félicitations !")
+    elif person_age > 60:
+        print("Tu es senior")
     elif person_age > 18:
-        print("Tu es majeur")
+        print("Tu es majeur !")
+    elif person_age < 10:
+        print("Tu es un enfant")
     else:
         print("Tu es mineur !")
 
